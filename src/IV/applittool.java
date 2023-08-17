@@ -24,4 +24,6 @@ driver.findElement(By.id("log-in")).click();
 WebElement searchBar=driver.findElement(By.xpath("//a[@id='log-in']/following::img)[2]"));
 searchBar.click();
 
+System.out.println("tesing");
+
 }}
